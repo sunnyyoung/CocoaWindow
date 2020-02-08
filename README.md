@@ -4,14 +4,17 @@ Make NSWindow great again ✨
 
 ## Overview
 
-| Feature | Screenshot |
+| Realtime blur background | Close button offset |
 |---|---|
-| Realtime blur background | ![Blur](Screenshots/Blur.gif) |
-| Close button offset | ![CloseButtonOffset](Screenshots/CloseButtonOffset.gif) |
-| Hide decoration view | ![HideDecorationView](Screenshots/HideDecorationView.gif) |
-| Show title bar | ![ShowTitle](Screenshots/ShowTitle.gif) |
-| Title bar height | ![TitlebarHeight](Screenshots/TitlebarHeight.gif) |
-| Transparent title bar | ![TransparentTitlebar](Screenshots/TransparentTitlebar.gif) |
+| ![Blur](Screenshots/Blur.gif) | ![CloseButtonOffset](Screenshots/CloseButtonOffset.gif) |
+
+| Hide decoration view | Show title bar |
+|---|---|
+| ![HideDecorationView](Screenshots/HideDecorationView.gif) | ![ShowTitle](Screenshots/ShowTitle.gif) |
+
+| Hide decoration view | Show title bar |
+|---|---|
+| ![TitlebarHeight](Screenshots/TitlebarHeight.gif) | ![TransparentTitlebar](Screenshots/TransparentTitlebar.gif) |
 
 ## Requirements
 
@@ -21,7 +24,7 @@ Make NSWindow great again ✨
 ## Usage
 
 ```objc
-window.opaque = NO; // Require setting
+window.opaque = NO;                                                 // Required setting
 window.cw_isDecorationViewHidden = YES;
 window.cw_blur = 30.0;                                              // Default is 0.0
 window.cw_titlebarHeight = 48.0;                                    // Default is 0.0
