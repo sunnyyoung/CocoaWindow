@@ -12,7 +12,7 @@ Make NSWindow great again ✨
 |---|---|
 | ![HideDecorationView](Screenshots/HideDecorationView.gif) | ![ShowTitle](Screenshots/ShowTitle.gif) |
 
-| Hide decoration view | Show title bar |
+| Title bar height | Show title bar |
 |---|---|
 | ![TitlebarHeight](Screenshots/TitlebarHeight.gif) | ![TransparentTitlebar](Screenshots/TransparentTitlebar.gif) |
 
